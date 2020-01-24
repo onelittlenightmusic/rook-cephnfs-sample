@@ -1,0 +1,14 @@
+{
+      "cluster_id": "mynfs",
+      "path": "/",
+      "fsal": {"name": "CEPH", "user_id":"admin", "fs_name": "myfs", "sec_label_xattr": null},
+      "pseudo": "/cephfs",
+      "tag": null,
+      "access_type": "RW",
+      "squash": "no_root_squash",
+      "protocols": [4],
+      "transports": ["TCP"],
+      "security_label": true,
+      "daemons": ["my-nfs.a", "my-nfs.b"],
+      "clients": []
+}
